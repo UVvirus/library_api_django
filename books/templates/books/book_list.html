@@ -1,0 +1,10 @@
+<h1>Books</h1>
+
+{% for books in object_list %}
+<ul>
+    <li>Title:{{ books.title }}</li>
+    <li>subtitle:{{ books.subtitle }}</li>
+    <li>author:{{ books.author }}</li>
+    <li>isbn :{{ books.isbn }}</li>
+</ul>
+{% endfor %}
